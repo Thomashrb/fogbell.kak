@@ -15,19 +15,19 @@ declare-option str void_red    "821a1a"
 declare-option str void_red2   "ff0000"
 
 # For code
-set-face global value         "rgb:%opt{void_steel}"   # C++ ⇒ int number = [42];
-set-face global type          "rgb:%opt{void_gray4}"   # C++ ⇒ [int] main() { ... }
-set-face global variable      "rgb:%opt{void_steel}"   # Makefile ⇒ [install]:
-set-face global module        "rgb:%opt{void_steel}"   # C++ ⇒ #include [<stdio.h>]
+set-face global value         "rgb:%opt{void_steel}"    # C++ ⇒ int number = [42];
+set-face global type          "rgb:%opt{void_gray4}"    # C++ ⇒ [int] main() { ... }
+set-face global variable      "rgb:%opt{void_steel}"    # Makefile ⇒ [install]:
+set-face global module        "rgb:%opt{void_steel}"    # C++ ⇒ #include [<stdio.h>]
 set-face global function      "rgb:%opt{void_steel}"
 set-face global string        "rgb:%opt{void_steel}"
 set-face global keyword       "rgb:%opt{void_steel}"
-set-face global operator      "rgb:%opt{void_steel}"   # Shell ⇒ true [&&] false
-set-face global attribute     "rgb:%opt{void_steel}"   # C++ ⇒ [enum] Color { ... };
+set-face global operator      "rgb:%opt{void_steel}"    # Shell ⇒ true [&&] false
+set-face global attribute     "rgb:%opt{void_steel}"    # C++ ⇒ [enum] Color { ... };
 set-face global comment       "rgb:%opt{void_gray3}"
-set-face global documentation "rgb:%opt{void_gray3}"   # Rust ⇒ /// Returns `true`.
-set-face global meta          "rgb:%opt{void_steel}"   # C++ ⇒ [#include] <stdio.h>
-set-face global builtin       "rgb:%opt{void_black}+i"
+set-face global documentation "rgb:%opt{void_black2}+i" # Rust ⇒ /// Returns `true`.
+set-face global meta          "rgb:%opt{void_steel}"    # C++ ⇒ [#include] <stdio.h>
+set-face global builtin       "rgb:%opt{void_steel}"
 
 # Diffs
 set-face global DiffText      "rgb:%opt{void_gray1}"
@@ -53,7 +53,7 @@ set-face global SecondaryCursor     "default,rgb:%opt{void_gray3},rgb:%opt{void_
 set-face global PrimaryCursorEol    "rgb:%opt{void_black},rgb:%opt{void_gray4}"
 set-face global SecondaryCursorEol  "rgb:%opt{void_black},rgb:%opt{void_gray4}"
 set-face global MenuForeground      "rgb:%opt{void_gray4},rgb:%opt{void_gold1}"
-set-face global MenuBackground      "rgb:%opt{void_gray4},rgb:%opt{void_black}"
+set-face global MenuBackground      "rgb:%opt{void_gray4},rgb:%opt{void_black2}"
 set-face global MenuInfo            "rgb:%opt{void_gray3}"                       # IntelliSense suggestions
 set-face global Information         "rgb:%opt{void_gray4},rgb:%opt{void_black}"  # Editor backgroundDefault
 set-face global Error               "rgb:%opt{void_gray4},rgb:%opt{void_red}"
